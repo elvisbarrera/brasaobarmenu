@@ -1,0 +1,705 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+:root {
+	--gold: #C5A059;
+	--gold-soft: rgba(197, 160, 89, 0.4);
+	--bg: #0C0E11;
+	--card-bg: #0E1114;
+	--text-main: #FFFCF1;
+	--text-muted: #B0B3B8;
+	--white: #FFFCF1;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background-color: var(--bg);
+}
+
+body {
+	margin: 0 auto;
+	background-color: var(--bg);
+	background-image: radial-gradient(ellipse at 50% 0%, #12161A 0%, #0C0E11 70%, #07090B 100%);
+	background-attachment: scroll;
+	color: var(--text-main);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.6;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+	body {
+		max-width: 800px;
+	}
+}
+
+/* Centering Logo and Main Title */
+.header-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2.5rem 1.5rem 1.5rem;
+	text-align: center;
+}
+
+.main-logo {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 0.6rem;
+}
+
+.subtitle-crafted {
+	font-family: 'Montserrat', sans-serif;
+	color: var(--gold);
+	font-size: 0.62rem;
+	letter-spacing: 0.38em;
+	text-transform: uppercase;
+	margin: 0.5rem 0 1.2rem;
+	font-weight: 400;
+	opacity: 0.9;
+}
+
+.glow-divider {
+	width: 130px;
+	height: 1px;
+	background: linear-gradient(to right, transparent, var(--gold), transparent);
+	box-shadow: 0 0 10px var(--gold-soft);
+	margin-bottom: 1.8rem;
+}
+
+.review-btn {
+	font-family: 'Montserrat', sans-serif;
+	background-color: var(--gold);
+	color: #0c0e11 !important;
+	font-size: 0.65rem;
+	font-weight: 600;
+	letter-spacing: 0.22em;
+	text-transform: uppercase;
+	padding: 0.75rem 2.2rem;
+	border: 1px solid var(--gold);
+	border-radius: 0px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+.review-btn:hover {
+	background-color: transparent;
+	color: var(--gold) !important;
+}
+
+/* Tabs / Navigation */
+.no-margin {
+	padding: 8px 0 !important;
+	margin-bottom: 0px !important;
+	border-top: 1px solid rgba(197, 160, 89, 0.25);
+}
+
+.tabs {
+	margin-bottom: 0 !important;
+}
+
+.tabs.is-toggle ul {
+	border: none;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 12px 8px !important;
+}
+
+.tabs.is-toggle li a {
+	border: 1px solid rgba(197, 160, 89, 0.25) !important;
+	background: transparent !important;
+	color: var(--text-muted) !important;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	transition: all 0.25s ease;
+	padding: 0.65em 1.25em !important;
+	border-radius: 0px;
+}
+
+.tabs.is-toggle li a:hover {
+	background-color: rgba(197, 160, 89, 0.08) !important;
+	border-color: rgba(197, 160, 89, 0.5) !important;
+	color: var(--gold) !important;
+}
+
+.tabs.is-toggle li.is-active a {
+	font-weight: 600 !important;
+	color: #0c0e11 !important;
+	background-color: var(--gold) !important;
+	border-color: var(--gold) !important;
+	border-radius: 0px;
+}
+
+/* Happy Hour Section */
+.happy-hour {
+	background-color: rgba(255, 252, 241, 0.03);
+	border-bottom: 1px solid rgba(197, 160, 89, 0.14);
+	padding: 10px 20px !important;
+	text-align: center;
+	margin-bottom: 10px !important;
+}
+
+.happy-hour .is-centered {
+	color: var(--text-muted);
+	font-size: 0.85rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -10px !important;
+}
+
+.happy-hour .is-centered img {
+	margin-right: 8px;
+}
+
+.hh,
+.hh strong {
+	color: var(--gold) !important;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 1.8rem;
+	margin-bottom: 0px !important;
+	padding-top: 15px;
+	letter-spacing: 1px;
+}
+
+.bar-area,
+.bar-area strong {
+	font-size: 0.85rem;
+	color: var(--white) !important;
+	letter-spacing: 0.15em;
+	margin-top: 0 !important;
+}
+
+/* Section Headings — "spirit-title" look: small caps, gold, flanking lines */
+h4.title,
+.subtitle,
+.wine-title,
+.dessert-title,
+.beer-title {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 1.3rem;
+	color: var(--gold);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-top: 2.5rem !important;
+	margin-bottom: 1.2rem !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.info>div>br:first-child {
+	display: none;
+}
+
+h4.title::before,
+h4.title::after,
+.subtitle::before,
+.subtitle::after,
+.wine-title::before,
+.wine-title::after,
+.dessert-title::before,
+.dessert-title::after,
+.beer-title::before,
+.beer-title::after {
+	content: "";
+	flex: 0 0 24px;
+	height: 1px;
+	background: linear-gradient(to var(--dir, right), transparent, var(--gold-soft));
+	display: block;
+}
+
+h4.title::before,
+.subtitle::before,
+.wine-title::before,
+.dessert-title::before,
+.beer-title::before {
+	--dir: right;
+}
+
+h4.title::after,
+.subtitle::after,
+.wine-title::after,
+.dessert-title::after,
+.beer-title::after {
+	--dir: left;
+}
+
+/* Menu Items with Dot Leaders */
+.drink-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: space-between;
+	margin: 14px 0;
+	width: 100%;
+}
+
+.cocktail {
+	display: contents;
+}
+
+.cocktail-name {
+	order: 1;
+	display: flex;
+	align-items: baseline;
+	flex: 1;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-size: 1.15rem;
+	font-weight: 500;
+	color: var(--white);
+	margin: 0 !important;
+	white-space: nowrap;
+	letter-spacing: 0.3px;
+}
+
+.cocktail-name::after {
+	content: "";
+	flex: 1;
+	border-bottom: 1px dotted rgba(197, 160, 89, 0.45);
+	margin: 0 10px;
+	order: 1;
+}
+
+.price {
+	order: 2;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: var(--gold);
+	margin: 0 !important;
+	flex-shrink: 0;
+}
+
+.price p {
+	margin: 0 !important;
+}
+
+.cocktail-description,
+.drink-description,
+.vino-description {
+	order: 3;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.85rem;
+	font-weight: 300;
+	color: var(--text-muted);
+	font-style: italic;
+	margin-top: 2px !important;
+	margin-bottom: 5px !important;
+	text-align: left;
+	line-height: 1.6;
+}
+
+#desserts .menu-description {
+	margin-top: -10px !important;
+}
+
+/* Small icons next to names */
+.cocktail-name img {
+	margin-right: 8px;
+	margin-top: -3px !important;
+	filter: brightness(0) saturate(100%) invert(72%) sepia(28%) saturate(478%) hue-rotate(357deg) brightness(92%) contrast(88%);
+}
+
+/* Bar Special / Soup & Salad / Entrees etc. section markers */
+.tabContent h1 {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: var(--gold);
+	border-top: 1px solid rgba(197, 160, 89, 0.35);
+	border-bottom: 1px solid rgba(197, 160, 89, 0.35);
+	padding: 12px 0;
+	display: inline-block;
+	width: 100%;
+	margin: 3rem auto;
+}
+
+/* Images (standalone, non-grid) */
+.cocktail-images,
+.cocktail-image {
+	display: flex;
+	justify-content: center;
+	margin: 10px 0 10px 0;
+}
+
+.cocktail-images img,
+.cocktail-image img {
+	border-radius: 4px;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* ══════════════════════════════════════
+   COCKTAIL GRID — CARD LAYOUT
+══════════════════════════════════════ */
+.cocktails-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 12px;
+	margin: 0 0 2rem 0;
+}
+
+.cocktails-grid>.borderline {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background: var(--card-bg);
+	border: 1px solid rgba(197, 160, 89, 0.16);
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+	transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.cocktails-grid>.borderline:hover {
+	transform: translateY(-2px);
+	border-color: rgba(197, 160, 89, 0.4);
+}
+
+/* Dynamic Badge */
+.cocktail-badge {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	background-color: rgba(12, 14, 17, 0.9);
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.6rem;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	padding: 4px 10px;
+	text-transform: uppercase;
+	border-radius: 4px;
+	z-index: 10;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+/* Subcategories Menu */
+.subcategory-menu-wrapper {
+	width: 100%;
+	margin: 1.5rem 0 2rem;
+	padding: 0 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.subcategory-menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	row-gap: 10px;
+	max-width: 100%;
+}
+
+.subTabLink {
+	background: transparent;
+	border: 1px solid rgba(197, 160, 89, 0.35);
+	color: var(--text-muted);
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 0.45rem 1.25rem;
+	cursor: pointer;
+	transition: all 0.25s ease;
+	border-radius: 0px;
+}
+
+.subTabLink:hover {
+	background-color: rgba(197, 160, 89, 0.08);
+	border-color: var(--gold);
+	color: var(--gold);
+}
+
+.subTabLink.active {
+	background-color: var(--gold);
+	color: #0c0e11;
+	border-color: var(--gold);
+	font-weight: 600;
+}
+
+/* Section Header Styles */
+.section-header {
+	text-align: center;
+	margin-top: 3.5rem;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 6px;
+}
+
+.section-title {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 2.1rem;
+	color: var(--gold);
+	letter-spacing: 2px;
+	margin: 0 !important;
+	text-transform: uppercase;
+}
+
+.section-subtitle {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 0.85rem;
+	color: var(--gold);
+	opacity: 0.8;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin: 0 !important;
+}
+
+.all-cocktails-header {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.cocktails-grid .cocktail-images {
+	order: -1;
+	margin: 0 !important;
+	max-width: 100% !important;
+	padding: 0;
+}
+
+.cocktails-grid .cocktail-images::after {
+	display: none;
+}
+
+.cocktails-grid .cocktail-img {
+	width: 100% !important;
+	max-width: 100% !important;
+	aspect-ratio: 1 / 1 !important;
+	border-radius: 0 !important;
+	object-fit: cover;
+	object-position: center top;
+	display: block;
+	box-shadow: none;
+}
+
+.cocktails-grid .cocktail-name img {
+	width: 16px !important;
+	height: 16px !important;
+	aspect-ratio: 1 / 1 !important;
+	display: inline-block !important;
+	margin-right: 6px !important;
+	vertical-align: middle !important;
+	margin-top: -2px !important;
+}
+
+.cocktails-grid .container.drink-container {
+	padding: 10px 10px 2px !important;
+	margin: 0 !important;
+	flex-direction: column !important;
+	gap: 1px;
+}
+
+.cocktails-grid .cocktail {
+	margin-right: 0 !important;
+	width: 100%;
+}
+
+/* Gold gradient divider between name and price */
+.cocktails-grid .cocktail::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: linear-gradient(to right, #C5A059 0%, rgba(197, 160, 89, 0.35) 60%, transparent 100%);
+	margin: 6px 0 3px;
+}
+
+.cocktails-grid .cocktail-name {
+	font-size: 1.05rem;
+	white-space: normal;
+}
+
+.cocktails-grid .cocktail-name::after {
+	display: none;
+}
+
+.cocktails-grid .price {
+	margin-top: 1px !important;
+	font-size: 0.78rem !important;
+}
+
+.cocktails-grid .cocktail-description,
+.cocktails-grid .drink-description {
+	padding: 3px 10px 12px !important;
+	font-size: 0.72rem !important;
+	font-style: normal;
+	line-height: 1.55 !important;
+	margin-top: 0 !important;
+	color: rgba(176, 179, 184, 0.85) !important;
+}
+
+/* Bar Bites / Desserts DNA Alignment */
+#desserts h5 {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-size: 1.15rem;
+	font-weight: 500;
+	color: var(--white);
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	margin: 10px 12px !important;
+}
+
+#desserts h5::after {
+	content: "";
+	flex: 1;
+	border-bottom: 1px dotted rgba(197, 160, 89, 0.45);
+	margin: 0 10px;
+}
+
+#desserts h5 span {
+	order: 2;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	color: var(--gold);
+	font-size: 1rem;
+	margin-left: 0;
+}
+
+#desserts h5 img {
+	margin-right: 8px;
+	margin-top: -3px !important;
+}
+
+#desserts.container {
+	padding-left: 12px !important;
+	padding-right: 12px !important;
+}
+
+#desserts .cocktail-description {
+	padding-left: 12px !important;
+	padding-right: 12px !important;
+	margin-bottom: 15px !important;
+}
+
+/* Wagyu / multi-price rows */
+.wagyu-price {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.app-description {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.85rem;
+	color: var(--text-muted);
+	margin: 4px 0;
+}
+
+.app-description span {
+	color: var(--gold);
+	font-weight: 600;
+}
+
+/* Sides list */
+.sides {
+	padding: 0 12px;
+}
+
+.sides h5 {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	font-size: 1.05rem;
+	font-weight: 500;
+	color: var(--white);
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	margin: 8px 0 !important;
+}
+
+.sides h5::after {
+	content: "";
+	flex: 1;
+	border-bottom: 1px dotted rgba(197, 160, 89, 0.45);
+	margin: 0 10px;
+	order: 1;
+}
+
+.sides h5 span {
+	order: 2;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: var(--gold);
+	font-size: 0.95rem;
+}
+
+/* Footer */
+.last-footer {
+	background-color: #060809;
+	color: rgba(255, 252, 241, 0.35);
+	font-size: 0.72rem;
+	letter-spacing: 1px;
+	padding: 1.6rem 20px;
+	text-align: center;
+	margin-top: 60px;
+	border-top: 1px solid rgba(197, 160, 89, 0.12);
+}
+
+.footer-text {
+	margin: 0;
+}
+
+/* Utility to hide sections */
+.invisible-section {
+	display: none;
+}
+
+/* ══════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════ */
+@media (max-width: 480px) {
+	.cocktails-grid {
+		gap: 8px;
+	}
+
+	.cocktails-grid .cocktail-name {
+		font-size: 0.95rem;
+	}
+
+	h1.title {
+		font-size: 2.6rem;
+	}
+
+	h4.title,
+	.subtitle {
+		font-size: 1.1rem;
+		letter-spacing: 2.5px;
+	}
+}

@@ -1,0 +1,2900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mobile-fixes.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google review -->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
+    <!-- bulma styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- css styles -->
+    <link rel="stylesheet" href="mobile-fixes.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+    <title>Brasão Bar Menu</title>
+</head>
+
+<body>
+
+    <div class="header-container">
+        <img src="./img/Brasão-LOGO-May-2024-Colors.png" width="195" alt="Brasão Logo" class="main-logo">
+        <p class="subtitle-crafted">Crafted to elevate your experience</p>
+        <div class="glow-divider"></div>
+    </div>
+
+    <div class="no-margin">
+        <div class="tabs is-toggle main-menu is-centered">
+            <ul class="list">
+                <li class="tabLinks is-active" onclick="openTab(event,'wines')"><a>Wines</a></li>
+                <li class="tabLinks" onclick="openTab(event,'cocktails')"><a>Cocktails</a></li>
+                <li class="tabLinks" onclick="openTab(event,'beers')"><a>Beers</a></li>
+                <li class="tabLinks" onclick="openTab(event,'infusions')"><a>Infusions</a></li>
+                <li class="tabLinks" onclick="openTab(event,'desserts')"><a>Menu</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="happy-hour">
+        <p class="hh"><strong>HAPPY HOUR</strong></p>
+        <p class="bar-area"><strong>BAR AREA ONLY</strong></p>
+
+        <div class="bar-hours">
+            Tuesday - Thursday 11AM - 2PM & <br> 4:30PM - 7PM <br>
+            Sunday & Monday All Day <br>
+            Reverse Happy Hour: Thursdays 7 - 9:30PM <br>
+            Appetizers $14 - Drinks $8
+        </div>
+        <br>
+
+        <div class="is-centered">
+            <img src="./img/website-logo-only.png" alt="logo" width="20">Happy Hour item
+        </div>
+        <br>
+
+    </div>
+
+    <div class="info">
+        <!---------------------- //wines ---------------------->
+
+        <div id="wines" class="tabContent container">
+            <br>
+            <h4 class="title wine-title mb-1">Wines</h4>
+
+
+            <div class="subtitle">Whites by the glass: </div>
+
+            <!-- moscato -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Ca' Bianca
+                    </h5>
+                    <p class="cocktail-description"> Moscato D'Asti, Piedmont, Italy 2024</p>
+                </div>
+                <div class="price">
+                    <p>$9.95</p>
+                </div>
+            </div>
+
+            <!-- riesling -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Dr. Loosen
+                    </h5>
+                    <p class="cocktail-description">Riesling, Mosel, Germany 2024 </p>
+                </div>
+                <div class="price">
+                    <p>$9.95</p>
+                </div>
+            </div>
+
+            <!-- sparkling -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Zenato</h5>
+                    <p class="cocktail-description"> Pinot Grigio, Veneto, Italy 2024 </p>
+                </div>
+                <div class="price">
+                    <p>$9.95</p>
+                </div>
+            </div>
+
+            <!-- Sauvignon Blanc -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Mohua</h5>
+                    <p class="cocktail-description">Sauvignon Blanc, Malborough, New Zealand 2023 </p>
+                </div>
+                <div class="price">
+                    <p>$9.95</p>
+                </div>
+            </div>
+
+            <!-- chardonnay -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Sea Sun</h5>
+                    <p class="cocktail-description">Chardonnay, California 2023</p>
+                </div>
+                <div class="price">
+                    <p>$9.95</p>
+                </div>
+            </div>
+
+            <!-- prosecco -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Avissi</h5>
+                    <p class="cocktail-description">Prosseco, Veneto, Italy NV</p>
+                </div>
+                <div class="price">
+                    <p>$9.95</p>
+                </div>
+            </div>
+
+            <!-- campo viejo -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Campo Viejo
+                    </h5>
+                    <p class="cocktail-description">Cava, Brut Reserva, Spain NV</p>
+                </div>
+                <div class="price">
+                    <p>$9.95</p>
+                </div>
+            </div>
+
+            <!-- Rose -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Daou Rosé
+                    </h5>
+                    <p class="cocktail-description">Rosé, Paso Robles, California 2023 </p>
+                </div>
+                <div class="price">
+                    <p>$9.95</p>
+                </div>
+            </div>
+
+            <!-- Mumm -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Mumm</h5>
+                    <p class="cocktail-description">Napa Valley, California NV</p>
+                </div>
+                <div class="price">
+                    <p>$12.95</p>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+
+
+            <!-- -------------------------reds------------------------- -->
+            <div class="subtitle">Reds by the glass: </div>
+
+
+            <!-- pinot noir -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Elouan</h5>
+                    <p class="cocktail-description">Pinot Noir, Oregon 2022 </p>
+                </div>
+                <div class="price">
+                    <p>$12.95</p>
+                </div>
+            </div>
+
+            <!-- cabernet -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Liberty
+                        School Reserve</h5>
+                    <p class="cocktail-description">Cabernet Sauvignon, Paso Robles, California 2022
+                    </p>
+                </div>
+                <div class="price">
+                    <p>$12.95</p>
+                </div>
+            </div>
+
+            <!-- Malbec -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Catena
+                        "Vista Flores"</h5>
+                    <p class="cocktail-description">Malbec, Mendoza, Argentina 2022 </p>
+                </div>
+                <div class="price">
+                    <p>$12.95</p>
+                </div>
+            </div>
+
+            <!-- merlot -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Decoy</h5>
+                    <p class="cocktail-description">Merlot, California 2022 </p>
+                </div>
+                <div class="price">
+                    <p>$12.95</p>
+                </div>
+            </div>
+
+            <!-- red blend -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name">Conundrum</h5>
+                    <p class="cocktail-description">Red Blend, California 2022 </p>
+                </div>
+                <div class="price">
+                    <p>$14.95</p>
+                </div>
+            </div>
+
+
+
+            <!-- Brasão Wine -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name">Création by Chateau Saint Laurent</h5>
+                    <p class="cocktail-description">Red Blend, Côtes du Rhône, France</p>
+                </div>
+                <div class="price">
+                    <p>$18.95</p>
+                </div>
+            </div>
+
+
+
+            <!-- cabernet -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name">Quilt</h5>
+                    <p class="cocktail-description">Cabernet Sauvignon, Napa Valley, California 2022 </p>
+                </div>
+                <div class="price">
+                    <p>$31.95</p>
+                </div>
+            </div>
+
+            <!-- cabernet -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name">Caymus</h5>
+                    <p class="cocktail-description">Cabernet Sauvignon, Napa Valley, California 2022
+                    </p>
+                </div>
+                <div class="price">
+                    <p>$44.95</p>
+                </div>
+            </div>
+
+            <br>
+
+
+
+
+        </div>
+
+
+
+        <br>
+
+        <!----------------------  classic cocktails ---------------------->
+        <div id="cocktails" class="tabContent container invisible-section">
+
+            <!-- Subcategory filter buttons -->
+            <div class="subcategory-menu-wrapper">
+                <div class="subcategory-menu">
+                    <button class="subTabLink active" onclick="filterSubcategory(event, 'all')">All</button>
+                    <button class="subTabLink" onclick="filterSubcategory(event, 'happyhour')">Happy Hour</button>
+                    <button class="subTabLink" onclick="filterSubcategory(event, 'spritz')">Spritz</button>
+                    <button class="subTabLink" onclick="filterSubcategory(event, 'seasonal')">Seasonal</button>
+                    <button class="subTabLink" onclick="filterSubcategory(event, 'classics')">Classics</button>
+                    <button class="subTabLink" onclick="filterSubcategory(event, 'signature')">Signature</button>
+                    <button class="subTabLink" onclick="filterSubcategory(event, 'infusions')">Infusions</button>
+                    <button class="subTabLink" onclick="filterSubcategory(event, 'dessert')">Desserts</button>
+                </div>
+            </div>
+
+            <!-- Main Cocktails Title and Count -->
+            <div class="all-cocktails-header section-header">
+                <h2 class="section-title">— All Cocktails —</h2>
+                <p class="section-subtitle"><span id="all-cocktails-count">98</span> Selections</p>
+            </div>
+
+            <!-- --------------------------   Spritz  --------------------------   -->
+            <div class="cocktail-section" data-category="spritz">
+                <div class="section-header">
+                    <h2 class="section-title">— Spritz —</h2>
+                    <p class="section-subtitle"><span class="count-spritz">5</span> Selections</p>
+                </div>
+                <div class="cocktails-grid">
+
+                <!-- Negroni Sbagliato -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Negroni Sbagliato</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">A bubbly, bittersweet riff on the classic Negroni — Campari and sweet vermouth topped with Prosecco instead of gin, served in a rocks glass over ice with an orange dust and peel garnish.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/Negroni-sbagliato-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Aperol Corona Spritz -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Aperol Corona Spritz</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">A vibrant, refreshing fusion of Aperol and fresh lime with a full Corona Beer — served without ice in an Aperol or beer glass with a salt rim and lime wedge garnish.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/Aperol-Corona-Spritz-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Aperol Spritz -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Aperol Spritz</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">The Italian classic — Aperol and Prosecco topped with a splash of sparkling water, served in a wine glass over ice with a fresh orange slice garnish.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/Aperol-Spritz-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Hugo Spritz -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Hugo Spritz</h5>
+                        </div>
+                        <div class="price">
+                            <p>$16.00</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Light and aromatic — St. Germain elderflower liqueur meets Prosecco and sparkling water in a wine glass over ice, garnished with a lime wheel and fresh mint leaves for a crisp Alpine finish.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/Hugo-Spritz-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Limoncello Spritz -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Limoncello Spritz</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Bright and citrusy — Limoncello and Prosecco lifted with sparkling water, served in a wine glass over ice with a lemon wheel garnish for a sparkling Italian summer sip.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/Limoncello-Spritz-website.jpg" alt="">
+                    </div>
+                </div>
+
+                </div>
+            </div>
+
+            <!-- --------------------------   Seasonal  --------------------------   -->
+            <div class="cocktail-section" data-category="seasonal">
+                <div class="section-header">
+                    <h2 class="section-title">— Seasonal —</h2>
+                    <p class="section-subtitle"><span class="count-seasonal">6</span> Selections</p>
+                </div>
+                <div class="cocktails-grid">
+
+                <!-- Mangonada Margarita -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Mangonada Margarita</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">A bold summer twist on the classic margarita — mango purée, tequila, agave, lime juice, and triple sec shaken and strained over ice, served in a chamoy and tajín-rimmed rocks glass and garnished with mango chili and a lime wheel.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/mangonada-margarita-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Lavender Fog -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Lavender Fog</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">An elegant, floral cocktail with gin, limoncello, lavender Monin, lemon juice, lavender bitters, and Crème de Violette — double strained over ice into a Collins glass for a stunning purple gradient. Garnished with a lavender flower and lemon wheel.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/lavender-fog-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Cutie Gold Caipirinha -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Cutie Gold Caipirinha</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">A sunny spin on Brazil's national cocktail. We use premium Gold Cachaça and fresh Cutie mandarins for a richer, sweeter citrus profile that's incredibly refreshing and bright.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/mandarin-caipirinha-compressed.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Ube Horchata -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Ube Horchata</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Creamy, nutty, and visually stunning. This modern twist on traditional horchata features vibrant ube for an earthy sweetness, served over a sphere rock for a smooth, chilled finish.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/ube-horchata-compressed.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Cucumber Matcharita -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Cucumber Matcharita</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Crisp and energizing. This "Matcharita" pairs Corazon Tequila with fresh cucumber and a touch of matcha powder for an earthy, botanical edge that's perfect for springtime sipping.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/cucumber-matcharita-compressed.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Tiki 43 -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Tiki 43</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">A bold, tropical blend of Licor 43 and white rum with a surprising coffee kick. Brightened by fresh citrus and served in our signature 43 mug, it's a sophisticated take on a beachside classic.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/tiki-43-compressed.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- --------------------------   Classics  --------------------------   -->
+            <div class="cocktail-section" data-category="classics">
+                <div class="section-header">
+                    <h2 class="section-title">— Classics —</h2>
+                    <p class="section-subtitle"><span class="count-classics">19</span> Selections</p>
+                </div>
+                <div class="cocktails-grid">
+
+                <!-- caipirinha -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Caipirinha (Cachaça Rum)</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Flavors: Lime, Strawberry, Pineapple, Wild Berries or Coconut, blended with sugar and premium Cachaça rum, shaken to perfection and served on the rocks for the ultimate refreshment.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/caipirinha-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- caipiroska -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Caipiroska (Vodka)</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Flavors: Lime, Strawberry, Pineapple or Wild Berries, blended with sugar and premium Vodka, shaken to perfection and served on the rocks for the ultimate refreshment.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/caipiroska-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- old fashioned -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Old Fashioned</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Indulge in the bold flavors of premium Bourbon or Rye whiskey, balanced with aromatic bitters and a hint of orange, stirred to perfection and served over a single large rock.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/anejo-old-fashioned-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- moscow mule -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Moscow Mule</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">The crisp Vodka, zesty Lime, spicy Ginger Beer, and Simple Syrup are blended, shaken to perfection and served over ice in a iconic copper mug for a truly invigorating treat.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/moscow-mule-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Mint Julep -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Mint Julep</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Let the smooth bourbon or rye whiskey, Lime, Simple Syrup, and a touch of fresh Mint blend together, shaken and served in a traditional copper mug filled with crushed ice.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/mint-julep-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Bramble -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Bramble</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium gin, lemon juice, simple syrup, and juicy blackberries expertly muddled together, shaken and served over crushed ice for a truly delightful treat.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/bramble-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- French 75 -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> French 75</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium gin, lemon juice, and simple syrup blend together, shaken and topped with sparkling champagne.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/french75-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Cuban Sazerac -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Cuban Sazerac</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Smooth Añejo rum, sweet Banana du Brasil, and simple syrup are expertly balanced with Peychaud's bitters, then stirred to perfection and rimmed with a hint of Absinthe.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/cuban-sazerac-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Aviation -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Aviation</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium gin, sweet Maraschino liquor, Crème de Violette and tangy lemon juice soar together, served in a stylish coupe glass for a truly elevated experience.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/aviation-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Last word -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Last Word</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium gin, herbal Green Chartreuse, sweet Maraschino liquor and tangy lime juice expertly blended, shaken to perfection, for a truly memorable treat.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/last-word-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- smoked old fashioned -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Smoked Old Fashioned</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Rich and full-bodied flavors of Bourbon or Rye whiskey, blended seamlessly with aromatic and orange bitters. Then, this drink is elevated to new heights with the addition of carefully selected wooden chips, imparting a distinct smoky aroma and taste that will tantalize your senses.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/smoked-old-fashioned-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Vieux Carre -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Vieux Carre</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium Cognac or Rye Whiskey, sweet Vermouth, herbal Benedictine, balanced with Peychaud's and Angostura bitters.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/vieux-carre-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Negroni -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Negroni</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium gin, Campari, and sweet Vermouth expertly stirred together and served over a single rock for a truly classic experience.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/negroni-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Mojito -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Mojito</h5>
+                        </div>
+                        <div class="price">
+                            <p>$12.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Refreshing rum, lime juice, sugar, and a burst of fresh mint expertly blended, shaken to perfection, and served on the rocks for a truly revitalizing experience.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/mojito-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Sangria -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Sangria</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Whether you prefer red or white, this delectable blend of wine, brandy, peach Schnapps, fresh lime juice, juicy pineapple, oranges, and tart cranberry juice will tantalize your taste buds. The perfect drink for any occasion.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/sangrias-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Espresso Martini -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Espresso Martini</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium Vodka, sweet Licor 43, Mr.Black coffee liquor, and a shot of espresso are expertly blended, shaken to perfection and served straight up.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/espresso-martini-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Pink Lady -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Pink Lady</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium gin, Velvet Falernum, lemon juice, simple syrup, and juicy muddled raspberries and blackberries. Shaken to perfection and double strained for a smooth finish, topped with champagne, served in a sleek coupe glass.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/pink-lady-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Pineapple Basil -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Pineapple Basil</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">A delightful blend of premium vodka, sweet Velvet Falernum, pineapple, lemon juice, and fresh basil leaves.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/pineapple-basil-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Bloody Mary -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Bloody Mary</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium vodka, bold tomato juice, house-spiced blend, fresh lemon juice, and a dash of Worcestershire — garnished and served over ice.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/bloody-mary-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Boulevardier -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Boulevardier</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Bourbon, sweet vermouth, and Campari stirred to silky perfection over a large rock — the whiskey lover's Negroni.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/bulevardier-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Cape Cod -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Cape Cod</h5>
+                        </div>
+                        <div class="price">
+                            <p>$11.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Crisp premium vodka and bright cranberry juice over ice, finished with a squeeze of fresh lime — clean, simple, refreshing.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/cape-cut-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Chocolate Martini -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Chocolate Martini</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Silky vodka, rich dark chocolate liqueur, and a touch of cream shaken until luxuriously smooth — served in a chilled martini glass.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/chocolate-martini-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Cosmopolitan -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Cosmopolitan</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Citrus vodka, triple sec, cranberry juice, and fresh lime shaken to a stunning blush — effortlessly elegant.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/cosmo-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Strawberry Daiquiri -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Strawberry Daiquiri</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">White rum, lime juice, fresh strawberries, and cane sugar blended. A vibrant twist on a timeless classic.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/daiquiry-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Fitzgerald -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Fitzgerald</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">London dry gin, fresh lemon juice, simple syrup, and a dash of Angostura bitters — shaken and served over ice with quiet sophistication.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/fitzgerald-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Gibson -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Gibson</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium vodka and dry vermouth stirred until perfectly chilled — a distinguished martini crowned with a cocktail onion.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/gibson-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Godfather -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Godfather</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Aged Scotch whisky and smooth Amaretto stirred over a large rock — rich, mellow, and deeply satisfying.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/godfather-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Godmother -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Godmother</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium vodka and velvety Amaretto over ice — smooth, subtly sweet, and effortlessly refined.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/godmother-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Highland Pear -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Highland Pear</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Scotch whisky, St-Germain elderflower, fresh pear juice, and a hint of honey — served up in a chilled coupe glass.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/highland-pear-martini-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Lemon Drop -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Lemon Drop</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium vodka, fresh lemon juice, and triple sec shaken to a perfect sweet-tart balance — served in a sugar-rimmed martini glass.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/lemon-drop-martini-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Long Island Iced Tea -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Long Island Iced Tea</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Vodka, gin, rum, tequila, and triple sec shaken with sweet &amp; sour, finished with a splash of cola — a legendary crowd pleaser.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/long-islnd-iced-tea-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Manhattan -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Manhattan</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Rye or Bourbon, sweet vermouth, and Angostura bitters stirred to elegant perfection — served up or over a rock with a Luxardo cherry.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/manhathan-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Margarita -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Margarita</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium tequila, fresh lime juice, and triple sec shaken and served on the rocks or straight up — salted rim optional.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/margarita-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Mimosa -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Mimosa</h5>
+                        </div>
+                        <div class="price">
+                            <p>$9.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Chilled fresh orange juice and sparkling champagne — light, bright, and always celebratory.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/mimosa-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- NY Sour -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">NY Sour</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Rye whiskey, fresh lemon juice, and simple syrup shaken over ice — crowned with a dramatic dry red wine float.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/ny-sour-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Piña Colada -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Piña Colada</h5>
+                        </div>
+                        <div class="price">
+                            <p>$12.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Rum, rich coconut cream, and fresh pineapple juice blended until perfectly creamy — a pure Caribbean escape in a glass.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/pina-colada-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Pisco Sour -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Pisco Sour</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Peruvian Pisco, fresh lime juice, simple syrup, and egg white shaken into a silky froth — finished with drops of Angostura bitters.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/pisco-sour-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Rusty Nail -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Rusty Nail</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Aged Scotch whisky and honeyed Drambuie stirred over a large rock — warm, smooth, and deeply satisfying.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/rusty-nail-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Salty Dog -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Salty Dog</h5>
+                        </div>
+                        <div class="price">
+                            <p>$11.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium vodka and fresh grapefruit juice over ice in a salt-rimmed glass — bright, citrusy, and effortlessly refreshing.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/salty-dog-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Sazerac -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Sazerac</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Rye whiskey, Peychaud's bitters, a touch of simple syrup, and an absinthe-rinsed glass — stirred to ritual perfection and served neat.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/sazerac-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Tom Collins -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Tom Collins</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">London dry gin, fresh lemon juice, simple syrup, and sparkling soda over ice — tall, cool, and timelessly refreshing.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/tom-collins-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Vesper -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Vesper</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Gin, vodka, and Lillet Blanc shaken and served in a chilled coupe — James Bond's iconic creation, precise and uncompromising.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/vesper-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- White Russian -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">White Russian</h5>
+                        </div>
+                        <div class="price">
+                            <p>$11.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Vodka, Kahlúa coffee liqueur, and fresh cream stirred over ice — rich, indulgent, and utterly unforgettable.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/white-russian-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Dark 'N' Stormy -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Dark 'N' Stormy</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Bold Brugal 1888 rum, zesty lime, and ginger spice — deep, warming, and perfectly cozy for winter nights.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/dark-and-stormy-website.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- --------------------------   Signature  --------------------------   -->
+            <div class="cocktail-section" data-category="signature">
+                <div class="section-header">
+                    <h2 class="section-title">— Signature —</h2>
+                    <p class="section-subtitle"><span class="count-signature">13</span> Selections</p>
+                </div>
+                <div class="cocktails-grid">
+
+                    <!-- Pineapple Boat -->
+                    <div class="borderline" data-happy-hour="true">
+                        <div class="container drink-container">
+                            <div class="cocktail">
+                                <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Pineapple Boat</h5>
+                            </div>
+                            <div class="price">
+                                <p>$17.95</p>
+                            </div>
+                        </div>
+                        <p class="drink-description">Grab a slice of our chill Pineapple & Cachaça Reposado! It's half a pineapple, sliced up and served with smooth, aged cachaça. Super refreshing and the perfect sweet kick!</p>
+                        <div class="cocktail-images">
+                            <img class="cocktail-img" src="./new_cocktails/pineapple-boat.jpg" alt="">
+                        </div>
+                    </div>
+
+                <!-- Hibiscus Margarita -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Hibiscus Margarita</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">A floral blend of hibiscus and fresh citrus, finished with a smooth, subtly spicy tequila note. Elegant, vibrant, unmistakably seasonal.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/hibiscus-margarita-(spicy)-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Cranberry Mojito -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Cranberry Mojito</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Fresh mint, tart cranberry, and bright citrus — elevated with Brugal 1888 rum for a smooth, warm finish.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/cranberry-mojito-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Autumn Pineapple -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Autumn Pineapple</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">(Abacaxi de Outono) Grilled pineapple with cinnamon and sugar meets cachaça, citrus, honey, and a touch of bitters, served over ice with a smoky pineapple and cinnamon garnish.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/autumn-pineapple-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- watermelon breeze -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Watermelon Breeze</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">A refreshing blend of Veev Acai Liqueur, fresh watermelon, lime, and a
+                        hint of simple syrup, served ice-cold for the perfect balance of bold and crisp flavors.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/watermelon-breeze-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Passion Fruit Margarita -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Passion Fruit Margarita <span style="color: brown;">(Spicy 🌶️)</span></h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">A bold mix of Ghost Tequila, passion fruit, and a kick of heat,
+                        perfectly balanced for a refreshing and fiery twist on a classic margarita.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/passion-fruit-margarita-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Bellini Sunrise -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Bellini Sunrise</h5>
+                        </div>
+                        <div class="price">
+                            <p>$11.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Effervescent Champagne, sweet Chambord Raspberry liquor, a touch of
+                        lemon, and a hint of sweetness, expertly blended and served in a elegant flute glass for a truly
+                        refined experience.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/bellini-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- peach 75 -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Peach 75</h5>
+                        </div>
+                        <div class="price">
+                            <p>$11.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium Peach Vodka, lemon juice, and simple syrup expertly blended,
+                        then topped with effervescent Prosecco.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/peach-75-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Grapefruit Martini -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Grapefruit Martini</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium ruby red vodka, bitter-sweet Aperol, lemon juice, and a hint
+                        of simple syrup, expertly shaken and served up in a chilled glass.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/grapefruit-martini-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Cucumber Ivy -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Cucumber Ivy</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Gin, floral St. Germain, lime juice, simple syrup, muddled cucumbers
+                        and a pinch of mint expertly blended, shaken, double strained, and served in a stylish coupe
+                        glass.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/cucumber-ivy-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Skinny Margarita -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Skinny Margarita</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Tequila, triple sec, agave nectar, lime and orange juice, shaken to
+                        perfection, and served on the rocks in a salt-rimmed glass for a guilt-free indulgence.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/skinny-margarita-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Basil Up -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Basil Up</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium gin, St.Germain, lime juice, simple syrup, muddled basil and
+                        cucumber, shaken to perfection and served on crushed ice.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/basil-up-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Oaxaca Spice -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Oaxaca Spice</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">A perfectly blended mix of spicy tequila, agave nectar, crème de
+                        Cassis, and lime juice. Shaken to perfection and served on crushed ice with a smoky chili rim.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/oaxaca-spice-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Summer Love -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Summer Love</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium rum, sweet and nutty Velvet Falernum and Orgeat, all
+                        balanced perfectly with a burst of fresh lime juice.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/love-in-summer-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Summer Mule -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Summer Mule</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium vodka, lime juice, simple syrup, cucumber and mint, shaken
+                        and double strained for a smooth and satisfying finish. Topped off with a splash of effervescent
+                        ginger beer, served on crushed ice in a classic copper mug.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/summer-mule-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Smoked Margarita -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Smoked Margarita</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Smooth blanco tequila and smoky mezcal, sweetened with agave nectar
+                        and balanced with lime juice and a hint of orange bitters. Shaken and served on a single rock.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/smoked-margarita-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Añejo Old Fashioned -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Añejo Old Fashioned</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Smooth añejo tequila, perfectly balanced with simple syrup, aromatic
+                        and orange bitters. This classic cocktail will leave you craving for more.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/old-fashioned-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Caipicoco -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Caipicoco</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Brazil's beloved Caipirinha reimagined with tropical coconut — fresh
+                        lime, raw cane sugar, and premium Cachaça blended over ice.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/caipicoco-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Premium Caipirinha -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Premium Caipirinha</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Our elevated take on the Brazilian classic — hand-muddled lime, raw
+                        cane sugar, and aged premium Gold Cachaça, served over ice with distinction.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/premium-caipirinha-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Fumblin' Dublin -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Fumblin' Dublin</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Irish whiskey gets tropical — Paddy's meets fresh pineapple juice and a
+                        splash of Blue Curaçao for a surprising, vibrant twist on a spirit-forward drink.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/fumblin-dublin-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Love in the Air -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Love in the Air</h5>
+                        </div>
+                        <div class="price">
+                            <p>$15.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Romance in a glass — fresh raspberries and mint meet our house
+                        Raspberry Infused Gin with Velvet Falernum and citrus. Served over a large cube.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/love-is-in-the-air-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Mexican Martini -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Mexican Martini</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Tequila, triple sec, fresh lime, and a splash of olive brine shaken and
+                        served in a salted martini glass — a Texas-born icon.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/mexican-martini-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Rum Punch -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Rum Punch</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium blend of rum and brandy, paired with juicy pineapple,
+                        orange, grapefruit and lime juice. Shaken to perfection and served on the rocks for a refreshing
+                        experience.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/rum-punch-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Raspberry Mojito -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Raspberry Mojito</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium raspberry vodka combined with a delicately muddled mixture
+                        of fresh raspberries and mint leaves. The result is a drink that is both crisp and fruity, with
+                        the perfect balance of sweetness and herbaceous flavors.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/raspberry-mojito-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Peartini -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Peartini</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">This luxurious drink features premium pear vodka blended with St.
+                        Germain, lemon juice, and a touch of simple syrup. A drink that is both elegant and refined,
+                        with a delicate balance of sweetness and tartness.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/peartini-website.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- --------------------------   Infusions  --------------------------   -->
+            <div class="cocktail-section" data-category="infusions">
+                <div class="section-header">
+                    <h2 class="section-title">— Infusions —</h2>
+                    <p class="section-subtitle"><span class="count-infusions">6</span> Selections</p>
+                </div>
+                <div class="cocktails-grid">
+
+                <!-- Mexican Candy -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Mexican Candy</h5>
+                        </div>
+                        <div class="price">
+                            <p>$12.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">This spicy-sweet treat features pineapple-serrano infused Cachaça, a
+                        splash of Framboise liquor, lemon juice, and a hint of simple syrup. This drink delivers a burst
+                        of bold, fruity flavors with a touch of heat.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/mexican-candy-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Red & Wild -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Red &amp; Wild</h5>
+                        </div>
+                        <div class="price">
+                            <p>$12.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Strawberry-infused Cachaça, St. Germain, Velvet Falernum, lemon
+                        juice, and a touch of simple syrup. This drink delivers a sweet and sophisticated blend of
+                        flavors that are bold and refreshing.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/red-and-wild-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Magenta Blossom -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Magenta Blossom</h5>
+                        </div>
+                        <div class="price">
+                            <p>$12.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Blueberry-infused rum, Triple sec, a hint of St. Germain, lemon
+                        juice, and a touch of simple syrup. Vibrant and delicious, with a delicate balance of sweetness
+                        and tartness.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/magenta-blossom-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Blue Rush -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Blue Rush</h5>
+                        </div>
+                        <div class="price">
+                            <p>$12.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Blueberry-infused rum, a touch of Orgeat, lime juice, a hint of
+                        simple syrup, and a pinch of fresh mint. Shaken, double strained and served over crushed ice,
+                        this drink delivers an invigorating blend of flavors that are fruity and herbaceous.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/blue-rush-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Kiwi Crush -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Kiwi Crush</h5>
+                        </div>
+                        <div class="price">
+                            <p>$12.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Kiwi-infused vodka, a touch of Velvet Falernum, lime juice, a hint
+                        of simple syrup, and a muddled raspberry bottom. Expertly shaken and served over crushed ice,
+                        with flavors that are sweet and tart.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/kiwi-crush-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Cucumber Martini -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Cucumber Martini</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Cucumber-infused vodka, lime juice, and a touch of simple syrup,
+                        shaken and served up with a chili rim that adds a touch of heat.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/cucumber-martini-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Raspberry Dreaming -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Raspberry Dreaming</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Raspberry gin, Chambord raspberry liquor, lemon juice, a hint of
+                        simple syrup, and a fluffy cloud of egg whites. A luxurious blend of flavors that will whisk you
+                        away to a world of raspberry bliss.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/raspberry-dreaming-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Mexican Brazilian -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Mexican Brazilian</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Pineapple serrano-infused Cachaça, smoky mezcal, a hint of Ancho
+                        Reyes liquor, agave nectar, and a splash of fresh lime juice. Sweet and spicy, with a bold and
+                        complex blend of flavors.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/mexican-brazilian-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Floating in Space -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Floating in Space</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Blueberry-infused rum, a touch of Créme de Cassis, lemon juice, a
+                        fluffy cloud of egg whites, and a hint of simple syrup.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/floating-in-space-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- The Green Goblin -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> The Green Goblin</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Kiwi-infused vodka, a touch of St.Germain, lemon juice, a hint of
+                        simple syrup, and a handful of fresh mint leaves.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/green-goblin-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Spicy Pisco -->
+                <div class="borderline" data-happy-hour="true">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Spicy Pisco</h5>
+                        </div>
+                        <div class="price">
+                            <p>$13.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Peruvian Pisco, a touch of pineapple-serrano infused Cachaça, a
+                        fluffy cloud of egg whites, a splash of lemon juice, and a hint of simple syrup.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/spicy-pisco-website.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- --------------------------   Dessert  --------------------------   -->
+            <div class="cocktail-section" data-category="dessert">
+                <div class="section-header">
+                    <h2 class="section-title">— Desserts —</h2>
+                    <p class="section-subtitle"><span class="count-dessert">6</span> Selections</p>
+                </div>
+                <div class="cocktails-grid">
+
+                <!-- Crème Brulee Martini -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Crème Brulee Martini</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Rich, velvety and indulgent — Licor 43 Crème Brulee, Vanilla Vodka,
+                        heavy cream and Mr. Black with caramel syrup, garnished with blueberries, a delicious dessert
+                        cocktail.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/creme-brulee-martini-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Carajillo -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Carajillo</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Spanish vanilla liqueur mixed with a shot of bold espresso, then lit
+                        on fire to create a truly unforgettable experience. Delivering a smooth and satisfying blend of
+                        flavors that will leave you feeling revitalized and ready for whatever comes next.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/carajillo-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Life changer -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Life Changer</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">This luxurious drink features Spanish vanilla liqueur, blended with
+                        the creamy richness of Rumchata and white chocolate liqueur. Lit on fire for a captivating
+                        presentation.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/life-changer-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Dominicana -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Dominicana</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Premium Flor de Caña rum, paired with the smooth and creamy notes of
+                        Tia Maria liquor and Rumchata. Topped off with the luxurious richness of Godiva dark chocolate
+                        and heavy whipping cream.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/dominicana-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Cocoa Cloud -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Cocoa Cloud</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">This velvety smooth drink blends premium 1921 Creme de Tequila with
+                        the rich and nutty notes of Amarula hazelnut liquor and the deep, coffee richness of Kahlua.
+                        Topped off with heavy whipping cream.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/cocoa-cloud-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Espress ya'self -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Espress Ya'self</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">This energizing drink combines smooth 1921 Creme de Tequila with the
+                        rich, bold flavors of coffee liquor and Amarula, perfectly balanced with a shot of freshly
+                        brewed espresso. Topped off with heavy whipping cream.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/espress-yaself-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Key Lime Pie Martini -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Key Lime Pie Martini</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">This sweet and tangy drink blends the smooth, creamy flavor of
+                        Liquor 43 with the zesty zing of lime juice, perfectly balanced with a touch of cream. Shaken to
+                        perfection and served up in a chilled martini glass.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/key-lime-pie-martini-website.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Coquito -->
+                <div class="borderline">
+                    <div class="container drink-container">
+                        <div class="cocktail">
+                            <h5 class="cocktail-name">Coquito</h5>
+                        </div>
+                        <div class="price">
+                            <p>$14.95</p>
+                        </div>
+                    </div>
+                    <p class="drink-description">Creamy coconut and cinnamon blended with Brugal 1888 rum — rich,
+                        silky, and holiday-perfect.</p>
+                    <div class="cocktail-images">
+                        <img class="cocktail-img" src="./new_cocktails/2026/coquito-website.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!--------------------------- Beers --------------------------->
+        <div id="beers" class="tabContent container invisible-section">
+            <h4 class="title beer-title mb-1">Beers</h4>
+            <br>
+
+            <!--  Michelob Ultra -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"> Michelob
+                        Ultra</h5>
+                    <p class="cocktail-description">American Light Lager 4.2% ABV</p>
+                </div>
+                <div class="price">
+                    <p>$5.95</p>
+                </div>
+            </div>
+
+            <!--  Michelob Ultra -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"> Budlight</h5>
+                    <p class="cocktail-description">American Light Lager 5% ABV</p>
+                </div>
+                <div class="price">
+                    <p>$5.95</p>
+                </div>
+            </div>
+
+            <!--  Shiner -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"> Shiner Bock
+                    </h5>
+                    <p class="cocktail-description">Bock Lager 4.4% ABV</p>
+                </div>
+                <div class="price">
+                    <p>$5.95</p>
+                </div>
+            </div>
+
+            <!--  Dos Equis XX -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"> Dos Equis XX
+                    </h5>
+                    <p class="cocktail-description">Mexican Lager Especial 4.2% ABV</p>
+                </div>
+                <div class="price">
+                    <p>$5.95</p>
+                </div>
+            </div>
+
+            <!--  Lagunitas IPA -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"> Lagunitas
+                        IPA</h5>
+                    <p class="cocktail-description">Indian Pale Ale 6.2% ABV</p>
+                </div>
+                <div class="price">
+                    <p>$5.95</p>
+                </div>
+            </div>
+
+
+            <!--  Corona -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"> Corona Extra
+                    </h5>
+                    <p class="cocktail-description">Mexican Lager 4.6% ABV</p>
+                </div>
+                <div class="price">
+                    <p>$5.95</p>
+                </div>
+            </div>
+
+
+            <!--  Modelo Especial -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Modelo
+                        Especial</h5>
+                    <p class="cocktail-description">Pilsner Style 4.4% ABV</p>
+                </div>
+                <div class="price">
+                    <p>$8.95</p>
+                </div>
+            </div>
+
+            <!--  Negra Modelo -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Negra Modelo
+                    </h5>
+                    <p class="cocktail-description">Dunkel Style Lager 5.4% ABV</p>
+                </div>
+                <div class="price">
+                    <p>$8.95</p>
+                </div>
+            </div>
+
+
+
+            <!--  Xingu (Brazilian) -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"><img src="./img/website-logo-only.png" alt="logo" width="20"> Xingu</h5>
+                    <p class="cocktail-description">Brazilian Black Lager 4.6% ABV</p>
+                </div>
+                <div class="price">
+                    <p>$8.95</p>
+                </div>
+            </div>
+
+
+
+            <!--  Stella Artois -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"> Stella
+                        Artois</h5>
+                    <p class="cocktail-description">Belgian Pilsner 5.2% ABV</p>
+                </div>
+                <div class="price">
+                    <p>$10.95</p>
+                </div>
+            </div>
+
+            <!--  Duvel (Belgium Golden Ale) -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name"> Duvel </h5>
+                    <p class="cocktail-description">Belgium Golden Ale 8.5% ABV</p>
+                </div>
+                <div class="price">
+                    <p>$12.95</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <!------------------------------ //appetizers ------------------------------>
+
+
+        <div id="desserts" class="tabContent container invisible-section">
+            <h4 class="title dessert-title mb-1">Bar Bites</h4>
+
+            <!-- 1 item -->
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Jalapeño Poppers
+                    <span>$14.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class="menu-description cocktail-description">Spicy jalapeño peppers stuffed with creamy cream cheese and wrapped in savory, crispy bacon.</p>
+                    <div class="menu-image cocktail-image">
+                        <img src="./img/apps/jalapeño-poppers-website.jpg" width="350" alt="">
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- 1 item -->
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Grilled Pineapple
+                    <span>$14.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class="menu-description cocktail-description">Warm, sweet, caramelized grilled pineapple slices with a hint of cinnamon sugar.</p>
+                    <div class="menu-image cocktail-image">
+                        <img src="./img/apps/grilled-pineapple-website.jpg" width="350" alt="">
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- 1 item -->
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Coalho Cheese
+                    <span>$14.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class="menu-description cocktail-description">Coalho cheese served with honey.</p>
+                    <div class="menu-image cocktail-image">
+                        <img src="./img/APPS/grilled-coalhlo-cheese.jpg" width="350" alt="">
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- 1 item -->
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Parmesan Chicken Salad
+                    <span>$15.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class="menu-description cocktail-description">Indulge in a bed of crunchy Parmesan cheese, topped
+                        with succulent
+                        chicken salad.</p>
+
+                    <div class="menu-image cocktail-image">
+                        <img src="./img/APPS/parmesan-salad.jpg" width="350" alt="">
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <br>
+
+
+            <!-- 1 item -->
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Empanadas<span>$15.95</span></h5>
+                <div id="pairings">
+                    <p class="menu-description cocktail-description">Savor the flavor of our mouth-watering beef
+                        empanadas, bursting
+                        with savory fillings and perfectly flaky crusts.</p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/empanadas-web.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br>
+
+
+            <!-- 1 item -->
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Spinach Dip<span>$17.95</span></h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Dive into a rich and creamy sea of flavor with our irresistible
+                        spinach dip, made with a blend of spinach, cream cheese, and heavy cream.</p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/spinach-dip-web.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br>
+
+
+
+
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Charcuterie Board<span>$20.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Indulge in a selection of the finest imported cheeses paired with a
+                        variety of cured meats for a taste sensation that can't be beat. Bon appétit!</p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/charcuterie.png" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br>
+
+
+
+            <!-- item -->
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Beef Ribs Sliders
+                    (3pc)<span>$21.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Slow-cooked with dark beer for over four hours, each bite is packed
+                        with bold flavors and melt-in-your-mouth tenderness. Served on a soft and fluffy Brioche bread,
+                        these sliders are the perfect blend of savory and satisfying.
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/sliders.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br>
+
+
+            <!-- ---------------------------------------    soup and salad           -------------------------------------- -->
+
+
+
+
+            <h1 class="is-centered">Soup & Salad</h1>
+
+
+            <!-- item -->
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Soup of the Day<span>$12.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Ask your server for details about the soup of the day.
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/soup-of-the-day.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br>
+
+
+
+            <!-- 1 item -->
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Caprese <span>$15.95</span></h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Savor the essence of summer with every bite of our classic Caprese,
+                        juicy tomatoes, creamy mozzarella, and fragrant basil leaves.</p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/caprese-salad-web.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br>
+
+
+
+            <!-- item -->
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Wedge Salad<span>$17.95</span></h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Experience the perfect balance of crisp and creamy with our classic
+                        wedge salad, featuring a wedge of crisp iceberg lettuce, smothered in ranch dressing and topped
+                        with crisp, salty bacon.</p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/wedge-salad-web.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br>
+
+
+
+
+
+            <!-- item -->
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Sautéed Vegetables<span>$17.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Asparagus, broccoli, bell peppers, and mushrooms—lightly seasoned
+                        and sautéed to perfection for a tender, vibrant finish..</p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/veggies.png" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br>
+
+
+
+
+
+            <!-- ---------------------------------------    entrees         -------------------------------------- -->
+
+
+            <h1 class="is-centered">Entrees</h1>
+
+
+
+
+
+            <!-- 1 item -->
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Pork Ribs<span>$17.95</span></h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Savor the succulence of our slow-cooked, fall-off-the-bone pork
+                        ribs, featuring six meaty bones of finger-licking goodness.</p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/pork_ribs.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+
+
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Top Sirloin with
+                    Cheese<span>$19.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Treat your taste buds to a mouthwatering USDA Prime Aged Top
+                        Sirloin, stuffed with melted Mozzarella cheese.</p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/sirloin_cheese.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+            <div>
+                <h5><img src="./img/website-logo-only.png" alt="logo" width="20"> Brasão Trio<span>$19.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Savor the flavors of a delicious trifecta with our Brasão Trio.
+                        Juicy beef wrapped in crispy bacon, succulent chicken paired with salty bacon, and a perfectly
+                        grilled sausage - all in one plate.</p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/brasao_trio.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+            <!-- item -->
+            <div>
+                <h5> Prime Sirloin Bites<span>$22.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Indulge in a feast fit for a king with our mouthwatering Prime
+                        Sirloin Bites. Each bite-sized piece is cut from a generous 16oz USDA Prime Aged Sirloin,
+                        ensuring maximum flavor in every mouthful. Treat yourself to the best, because you deserve it!
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/Picanha-appetizer-web.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+            <!-- item -->
+            <div>
+                <h5>Spicy Picanha<span>$22.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Turn up the heat with our 16 oz USDA Prime Spicy Picanha—juicy top
+                        sirloin expertly grilled and finished with our bold house-made rub for the perfect kick in every
+                        bite.
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/spicy-picanha.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+
+            <!-- item -->
+            <div>
+                <h5>Grilled Salmon<span>$24.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Grilled to perfection over an open flame, our salmon is tender and
+                        flavorful, served with a vibrant passion fruit sauce on the side for a tropical, tangy finish.
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/grilled-salmon.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+
+            <!-- item -->
+            <div>
+                <h5> Smoked Salmon<span>$24.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Embark on a journey of seafood bliss with our succulent Smoked
+                        Salmon. Fresh and luscious, each slice of salmon is bursting with rich and smoky flavors,
+                        perfectly paired with tangy capers for a taste experience like no other. Don't miss out on this
+                        exquisite dish!
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/smoked_salmon.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+
+            <!-- item -->
+            <div>
+                <h5>Grilled Shrimp<span>$29.95</span></h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Take a journey to the coast with our delectable Grilled Shrimp. 6
+                        jumbo shrimp, perfectly grilled to juicy perfection and served over a bed of caramelized bell
+                        peppers and onions. This dish is a symphony of flavors, with each bite offering a taste
+                        explosion like no other. Bon appétit!
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/shrimp.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+
+            <!-- item -->
+            <div>
+                <h5>Bottom Sirloin<span>$29.95</span></h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Indulge in a Steakhouse Classic! Savor every bite of the ultimate
+                        steak experience with our juicy Bottom Sirloin. Each succulent 16oz cut is hand selected from
+                        USDA Prime Aged beef, ensuring maximum flavor and tenderness in every mouthful.
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/bottom_sirloin.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+
+            <!-- item -->
+            <div>
+                <h5>Beef Ribs<span>$34.95</span></h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Get Ready for Ribs like No Other! Savor every juicy and succulent
+                        bite of our fall-off-the-bone Beef Ribs. A single large meaty bone, slow-cooked to perfection,
+                        packing bold flavors and maximum tenderness into every bite.
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/beef-ribs-web.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+
+            <!-- item -->
+            <div>
+                <h5>Lamb Chops<span>$39.95</span></h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Indulge in the ultimate gourmet treat with our mouthwatering Lamb
+                        Chops. Four juicy cuts, grilled to perfection and bursting with rich, savory flavors. Take your
+                        taste buds on a journey with every bite of this irresistible dish!
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/lamb-chops-web.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+
+
+            <!-- ---------------------------------------    bar specials         -------------------------------------- -->
+
+
+            <h1 class="is-centered">Bar Specials</h1>
+
+
+
+            <div>
+                <h5> Brasão Kabobs<span>$24.95</span>
+                </h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Enjoy the ultimate steak experience with our USDA Prime bottom
+                        sirloin, perfectly paired with a medley of fresh and juicy vegetables for a delicious, healthy
+                        and satisfying meal.
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/kabobs_fries.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+            <!-- ITEM -->
+            <div>
+                <h5>Brasão Ribeye Burger®<span>$39.95</span></h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Take a bite into pure beefy bliss with our Brasão Ribeye Burger®.
+                        Each juicy patty is made from a generous 12oz cut of sliced USDA Prime Aged ribeye, ensuring
+                        maximum flavor in every bite. Get ready for a burger like no other!
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/ribeye burger.jpeg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+            <!-- ---------------------------------------    chef's specials         -------------------------------------- -->
+
+
+            <h1 class="is-centered">Chef's Specials</h1>
+
+
+
+            <!-- item -->
+            <div>
+                <h5>Ribeye<span>$69.95</span></h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Savor the rich, juicy flavor of the king of steaks with our 16oz
+                        USDA Prime Ribeye! Experience the bold, beefy taste of our Ribeye, perfectly grilled to your
+                        preferred temperature for a truly mouth-watering meal. Treat yourself to a steak lover's
+                        paradise and sink your teeth into our premium Ribeye tonight!
+                        .</p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/Ribeye.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+            <!-- item -->
+            <div>
+                <h5>Filet mignon<span>$74.95</span></h5>
+                <div id="pairings">
+                    <p class=" cocktail-description">Indulge in a luxurious culinary experience with our 16oz USDA Prime
+                        Filet Mignon! This succulent cut of meat is hand-selected from only the finest, Prime grade
+                        beef, ensuring that every bite is bursting with flavor and tenderness.
+                    </p>
+
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/filet-mignon.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+
+
+            <!-- item -->
+            <div>
+                <h5>Wagyu A5</h5>
+                <p class="cocktail-description">Experience the exquisite taste of our Japanese Wagyu A5 steak, known for
+                    its unparalleled marbling, tenderness, and rich flavor. Cooked to perfection on a salt rock, this
+                    premium cut offers a luxurious and unforgettable dining experience.</p>
+                <div class="wagyu-price">
+                    <p class="app-description">3oz 100% Japanese Wagyu A5<span>$69.95</span></p>
+                    <p class="app-description app-description-bottom">6oz 100% Japanese Wagyu A5<span>$119.95</span></p>
+                </div>
+
+                <div id="pairings">
+                    <div class="cocktail-image">
+                        <img src="./img/APPS/Wagyu-A5.jpg" width="350" alt="">
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+            <br><br>
+
+
+
+
+
+
+
+            <br>
+            <br>
+            <p class="title dessert-title mb-1">Sides</p>
+            <br>
+
+            <div class="sides">
+                <h5>Cheese bread<span>$4.00</span></h5>
+                <h5>Rice<span>$4.00</span></h5>
+                <h5>Beans<span>$4.00</span></h5>
+                <h5>Polenta<span>$4.00</span></h5>
+                <h5>Fried bananas<span>$4.00</span></h5>
+                <h5>Mashed potatos<span>$4.00</span></h5>
+                <h5>Chiles toreados<span>$4.00</span></h5>
+                <h5>Farofa<span>$4.00</span></h5>
+                <h5>French fries<span>$4.00</span></h5>
+                <h5>Truffle fries<span>$6.00</span></h5>
+                <h5>Carreteiro rice<span>$6.00</span></h5>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+        <div id="infusions" class="tabContent container invisible-section">
+
+            <h4 class="title beer-title mb-1">Infusion Shots</h4>
+            <br>
+
+            <!--  infusion item -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name">
+                        Raspberry Gin</h5>
+                </div>
+                <div class="price">
+                    <p>$7.00</p>
+                </div>
+            </div>
+
+            <!--  infusion item -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name">
+                        Blueberry Rum</h5>
+                </div>
+                <div class="price">
+                    <p>$7.00</p>
+                </div>
+            </div>
+
+            <!--  infusion item -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name">
+                        Strawberry Vodka</h5>
+                </div>
+                <div class="price">
+                    <p>$7.00</p>
+                </div>
+            </div>
+
+            <!--  infusion item -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name">
+                        Pineapple Serrano Cachaça</h5>
+                </div>
+                <div class="price">
+                    <p>$7.00</p>
+                </div>
+            </div>
+
+            <!--  infusion item -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name">
+                        Cucumber Vodka</h5>
+                </div>
+                <div class="price">
+                    <p>$7.00</p>
+                </div>
+            </div>
+
+            <!--  infusion item -->
+            <div class="container drink-container">
+                <div class="cocktail">
+                    <h5 class="cocktail-name">
+                        Jabuticaba Gold Cachaça</h5>
+                </div>
+                <div class="price">
+                    <p>$7.00</p>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+
+    </div>
+
+
+
+
+    <!-- footer  -->
+
+    <div class="last-footer">
+        <p class="footer-text">© 2026 Brasão Bar Menu. All rights reserved.</p>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+/* mobile-fixes.css
+   Tighten menu spacing and prevent horizontal scroll on small screens
+*/
+
+html,
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Reduce spacing between menu items — adjust selectors to match your HTML if needed */
+.menu-grid,
+.menu-list,
+.cards {
+  gap: 8px;
+  row-gap: 8px;
+}
+
+.menu-item,
+.card {
+  padding: 8px;
+  margin: 0;
+  min-width: 0;
+}
+
+.row,
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row>*,
+.flex-row>* {
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+
+  .container,
+  .menu-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 6px;
+  }
+
+  .menu-item,
+  .card {
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  /* ---- Navigation menu centering on mobile ---- */
+  .no-margin {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tabs.main-menu,
+  .tabs.is-toggle.main-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+  }
+
+  .tabs.is-toggle.main-menu ul,
+  .tabs.main-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    gap: 12px 8px !important;
+  }
+
+  .tabs.is-toggle.main-menu ul li,
+  .tabs.main-menu ul li {
+    flex: 0 1 auto;
+    margin: 0 !important;
+  }
+
+  .menu-image {
+    padding-left: 12px;
+    padding-right: 10px;
+  }
+
+}
+
+/* final safety */
+body {
+  overflow-x: hidden;
+}
