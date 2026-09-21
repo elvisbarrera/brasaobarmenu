@@ -38,8 +38,8 @@
     <div class="no-margin">
         <div class="tabs is-toggle main-menu is-centered">
             <ul class="list">
-                <li class="tabLinks is-active" onclick="openTab(event,'wines')"><a>Wines</a></li>
-                <li class="tabLinks" onclick="openTab(event,'cocktails')"><a>Cocktails</a></li>
+                <li class="tabLinks" onclick="openTab(event,'wines')"><a>Wines</a></li>
+                <li class="tabLinks is-active" onclick="openTab(event,'cocktails')"><a>Cocktails</a></li>
                 <li class="tabLinks" onclick="openTab(event,'beers')"><a>Beers</a></li>
                 <li class="tabLinks" onclick="openTab(event,'infusions')"><a>Infusions</a></li>
                 <li class="tabLinks" onclick="openTab(event,'desserts')"><a>Menu</a></li>
@@ -69,7 +69,7 @@
     <div class="info">
         <!---------------------- //wines ---------------------->
 
-        <div id="wines" class="tabContent container">
+        <div id="wines" class="tabContent container invisible-section">
             <br>
             <h4 class="title wine-title mb-1">Wines</h4>
 
@@ -296,7 +296,7 @@
         <br>
 
         <!----------------------  classic cocktails ---------------------->
-        <div id="cocktails" class="tabContent container invisible-section">
+        <div id="cocktails" class="tabContent container">
 
             <!-- Subcategory filter buttons -->
             <div class="subcategory-menu-wrapper">
@@ -315,53 +315,91 @@
             <!-- Main Cocktails Title and Count -->
             <div class="all-cocktails-header section-header">
                 <h2 class="section-title">— All Cocktails —</h2>
-                <p class="section-subtitle"><span id="all-cocktails-count">94</span> Selections</p>
+                <p class="section-subtitle"><span id="all-cocktails-count">93</span> Selections</p>
+            </div>
+
+            <!-- --------------------------   Seasonal  --------------------------   -->
+            <div class="cocktail-section" data-category="seasonal">
+                <div class="section-header">
+                    <h2 class="section-title">— Seasonal —</h2>
+                    <p class="section-subtitle"><span class="count-seasonal">4</span> Selections</p>
+                </div>
+                <div class="cocktails-grid">
+
+                    <!-- Pistachio Martini -->
+                    <div class="borderline">
+                        <div class="container drink-container">
+                            <div class="cocktail">
+                                <h5 class="cocktail-name">Pistachio Martini</h5>
+                            </div>
+                            <div class="price">
+                                <p>$16.95</p>
+                            </div>
+                        </div>
+                        <p class="drink-description">Vanilla vodka, amaretto, and Baileys blended with a hint of blue curaçao and pistachio extract, finished with cream for a smooth, nutty dessert martini. Served in a coupe glass, garnished with pistachio.</p>
+                        <div class="cocktail-images">
+                            <img class="cocktail-img" src="./new_cocktails/2026/pistachio-martini-website.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Tiramisu Martini -->
+                    <div class="borderline">
+                        <div class="container drink-container">
+                            <div class="cocktail">
+                                <h5 class="cocktail-name">Tiramisu Martini</h5>
+                            </div>
+                            <div class="price">
+                                <p>$16.95</p>
+                            </div>
+                        </div>
+                        <p class="drink-description">Vodka, Mr. Black coffee liqueur, and Licor 43 Chocolate shaken with fresh espresso and cream — a silky, coffee-forward twist on the classic Italian dessert. Served in a martini glass, dusted with cocoa powder and a lady finger.</p>
+                        <div class="cocktail-images">
+                            <img class="cocktail-img" src="./new_cocktails/2026/tiramisu-martini-website.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Fig Side Car -->
+                    <div class="borderline">
+                        <div class="container drink-container">
+                            <div class="cocktail">
+                                <h5 class="cocktail-name">Fig Side Car</h5>
+                            </div>
+                            <div class="price">
+                                <p>$16.95</p>
+                            </div>
+                        </div>
+                        <p class="drink-description">Hennessy cognac blended with rich fig syrup and a touch of lemon juice, served over a big rock with a dried fig garnish — warm, fruit-forward, and elegantly balanced.</p>
+                        <div class="cocktail-images">
+                            <img class="cocktail-img" src="./new_cocktails/2026/fig-side-car-website.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Autumn Pineapple -->
+                    <div class="borderline">
+                        <div class="container drink-container">
+                            <div class="cocktail">
+                                <h5 class="cocktail-name">Autumn Pineapple</h5>
+                            </div>
+                            <div class="price">
+                                <p>$14.95</p>
+                            </div>
+                        </div>
+                        <p class="drink-description">(Abacaxi de Outono) Grilled pineapple with cinnamon and sugar meets cachaça, citrus, honey, and a touch of bitters, served over ice with a smoky pineapple and cinnamon garnish.</p>
+                        <div class="cocktail-images">
+                            <img class="cocktail-img" src="./new_cocktails/2026/autumn-pineapple-website%202.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
             <!-- --------------------------   Spritz  --------------------------   -->
             <div class="cocktail-section" data-category="spritz">
                 <div class="section-header">
                     <h2 class="section-title">— Spritz —</h2>
-                    <p class="section-subtitle"><span class="count-spritz">5</span> Selections</p>
+                    <p class="section-subtitle"><span class="count-spritz">3</span> Selections</p>
                 </div>
                 <div class="cocktails-grid">
-
-                    <!-- Negroni Sbagliato -->
-                    <div class="borderline">
-                        <div class="container drink-container">
-                            <div class="cocktail">
-                                <h5 class="cocktail-name">Negroni Sbagliato</h5>
-                            </div>
-                            <div class="price">
-                                <p>$15.95</p>
-                            </div>
-                        </div>
-                        <p class="drink-description">A bubbly, bittersweet riff on the classic Negroni — Campari and
-                            sweet vermouth topped with Prosecco instead of gin, served in a rocks glass over ice with an
-                            orange dust and peel garnish.</p>
-                        <div class="cocktail-images">
-                            <img class="cocktail-img" src="./new_cocktails/2026/Negroni-sbagliato-website.jpg" alt="">
-                        </div>
-                    </div>
-
-                    <!-- Aperol Corona Spritz -->
-                    <div class="borderline">
-                        <div class="container drink-container">
-                            <div class="cocktail">
-                                <h5 class="cocktail-name">Aperol Corona Spritz</h5>
-                            </div>
-                            <div class="price">
-                                <p>$14.95</p>
-                            </div>
-                        </div>
-                        <p class="drink-description">A vibrant, refreshing fusion of Aperol and fresh lime with a full
-                            Corona Beer — served without ice in an Aperol or beer glass with a salt rim and lime wedge
-                            garnish.</p>
-                        <div class="cocktail-images">
-                            <img class="cocktail-img" src="./new_cocktails/2026/Aperol-Corona-Spritz-website.jpg"
-                                alt="">
-                        </div>
-                    </div>
 
                     <!-- Aperol Spritz -->
                     <div class="borderline">
@@ -413,54 +451,6 @@
                             summer sip.</p>
                         <div class="cocktail-images">
                             <img class="cocktail-img" src="./new_cocktails/2026/Limoncello-Spritz-website.jpg" alt="">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- --------------------------   Seasonal  --------------------------   -->
-            <div class="cocktail-section" data-category="seasonal">
-                <div class="section-header">
-                    <h2 class="section-title">— Seasonal —</h2>
-                    <p class="section-subtitle"><span class="count-seasonal">2</span> Selections</p>
-                </div>
-                <div class="cocktails-grid">
-
-                    <!-- Mangonada Margarita -->
-                    <div class="borderline">
-                        <div class="container drink-container">
-                            <div class="cocktail">
-                                <h5 class="cocktail-name">Mangonada Margarita</h5>
-                            </div>
-                            <div class="price">
-                                <p>$15.95</p>
-                            </div>
-                        </div>
-                        <p class="drink-description">A bold summer twist on the classic margarita — mango purée,
-                            tequila, agave, lime juice, and triple sec shaken and strained over ice, served in a chamoy
-                            and tajín-rimmed rocks glass and garnished with mango chili and a lime wheel.</p>
-                        <div class="cocktail-images">
-                            <img class="cocktail-img" src="./new_cocktails/2026/mangonada-margarita-website.jpg" alt="">
-                        </div>
-                    </div>
-
-                    <!-- Lavender Fog -->
-                    <div class="borderline">
-                        <div class="container drink-container">
-                            <div class="cocktail">
-                                <h5 class="cocktail-name">Lavender Fog</h5>
-                            </div>
-                            <div class="price">
-                                <p>$15.95</p>
-                            </div>
-                        </div>
-                        <p class="drink-description">An elegant, floral cocktail with gin, limoncello, lavender Monin,
-                            lemon juice, lavender bitters, and Crème de Violette — double strained over ice into a
-                            Collins glass for a stunning purple gradient. Garnished with a lavender flower and lemon
-                            wheel.</p>
-                        <div class="cocktail-images">
-                            <img class="cocktail-img" src="./new_cocktails/2026/lavender-fog-website.jpg" alt="">
                         </div>
                     </div>
 
@@ -1256,7 +1246,7 @@
             <div class="cocktail-section" data-category="signature">
                 <div class="section-header">
                     <h2 class="section-title">— Signature —</h2>
-                    <p class="section-subtitle"><span class="count-signature">13</span> Selections</p>
+                    <p class="section-subtitle"><span class="count-signature">12</span> Selections</p>
                 </div>
                 <div class="cocktails-grid">
 
@@ -1311,24 +1301,6 @@
                             Brugal 1888 rum for a smooth, warm finish.</p>
                         <div class="cocktail-images">
                             <img class="cocktail-img" src="./new_cocktails/2026/cranberry-mojito-website.jpg" alt="">
-                        </div>
-                    </div>
-
-                    <!-- Autumn Pineapple -->
-                    <div class="borderline">
-                        <div class="container drink-container">
-                            <div class="cocktail">
-                                <h5 class="cocktail-name">Autumn Pineapple</h5>
-                            </div>
-                            <div class="price">
-                                <p>$14.95</p>
-                            </div>
-                        </div>
-                        <p class="drink-description">(Abacaxi de Outono) Grilled pineapple with cinnamon and sugar meets
-                            cachaça, citrus, honey, and a touch of bitters, served over ice with a smoky pineapple and
-                            cinnamon garnish.</p>
-                        <div class="cocktail-images">
-                            <img class="cocktail-img" src="./new_cocktails/2026/autumn-pineapple-website.jpg" alt="">
                         </div>
                     </div>
 
