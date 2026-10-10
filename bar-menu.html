@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brasão Brazilian Steakhouse · Bar Menu</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&family=Lato:wght@400;700;900&family=Cormorant+Garamond:wght@500;600&display=swap">
+  <link rel="stylesheet" href="bar-menu.css">
+</head>
+<body>
+
+<!-- BRASÃO · BAR MENU (QR page)
+     Squarespace: new page → add a section → add ONE Code Block → paste this whole file.
+     Photos load from your Squarespace Asset Library (All Bar Items 2026 Collection).
+     QR codes: one per location → /your-page/?loc=sa | ?loc=plano | ?loc=irving  (no loc = guest picks their city for the review button).
+     Edit prices/items in the BZ data at the bottom. -->
+
+<div class="bzb" id="bzb">
+  <div class="b-wrap">
+    <header class="b-hero">
+      <div class="hx">
+        <p class="b-kick">Crafted to elevate your experience</p>
+        <h1>Bar Menu<em>cocktails, wine &amp; bites</em></h1>
+        <p class="b-lead">Caipirinhas, classics and house signatures, shaken at the bar. Tap any drink or dish for the full story.</p>
+        <p class="b-live" id="bzb-live" hidden=""><i></i><span></span></p>
+      </div>
+      <div class="hh" aria-label="Happy Hour schedule">
+        <div class="hh-top"><p class="hh-t">Happy Hour</p><p class="hh-s">Bar area only</p></div>
+        <ol class="hh-week" id="bzb-week">
+          <li data-d="1">Mon</li><li data-d="2">Tue</li><li data-d="3">Wed</li><li data-d="4">Thu</li><li data-d="5" class="off">Fri</li><li data-d="6" class="off">Sat</li><li data-d="0">Sun</li>
+        </ol>
+        <ul class="hh-rows">
+          <li data-days="0,1"><span class="d">Sunday &amp; Monday</span><span class="t">All day</span></li>
+          <li data-days="2,3,4"><span class="d">Tuesday – Thursday</span><span class="t">11 AM – 2 PM<i>&amp;</i>4:30 – 7 PM</span></li>
+          <li data-days="4"><span class="d">Thursday <small>Reverse Happy Hour</small></span><span class="t">7 – 9:30 PM</span></li>
+        </ul>
+        <div class="hh-px"><div><b>$8</b><span>Drinks</span></div><div><b>$15</b><span>Appetizers</span></div></div>
+        <p class="hh-leg"><i class="dia"></i> marks Happy Hour items</p>
+      </div>
+    </header>
+  </div>
+
+  <nav class="b-tabs" aria-label="Menu sections"><div class="in" role="tablist" id="bzb-tabs"></div><div class="b-fbar" id="bzb-fbar" hidden=""></div></nav>
+
+  <main class="b-main"><div class="b-wrap" id="bzb-out"></div></main>
+
+  <div class="r-wrap" id="bz-review">
+    <div class="r-card">
+      <div class="r-stars" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg></div>
+      <p class="r-kick">Enjoyed your table?</p>
+      <h2>Tell us how we did</h2>
+      <p class="r-sub">Your review helps other guests find Brasão, and helps our team keep doing what they love.</p>
+      <div id="bzr-one" class="r-btns" hidden=""><a class="r-btn" id="bzr-go" href="#" target="_blank" rel="noopener">Leave a Google Review</a></div>
+      <div id="bzr-many" hidden="">
+        <p class="r-pick">Choose your Brasão</p>
+        <div class="r-btns">
+          <a class="r-btn alt" data-k="sa" href="#" target="_blank" rel="noopener">San Antonio</a>
+          <a class="r-btn alt" data-k="plano" href="#" target="_blank" rel="noopener">Plano</a>
+          <a class="r-btn alt" data-k="irving" href="#" target="_blank" rel="noopener">Irving</a>
+        </div>
+      </div>
+      <p class="r-note">Thank you for dining with us</p>
+    </div>
+  </div>
+</div>
+
+<div id="bzb-pin" role="complementary" aria-label="Leave a Google review">
+  <span>Enjoyed your table?<small>Leave us a Google review</small></span>
+  <a id="bzb-pin-go" href="#bz-review">Review</a>
+  <button type="button" id="bzb-x" aria-label="Dismiss">×</button>
+</div>
+
+<script src="bar-menu.js" defer></script>
+</body>
+</html>
